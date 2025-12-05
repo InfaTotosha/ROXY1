@@ -1,3 +1,162 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+
+}
+body {
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    color: #434455
+}
+
+h1
+h2
+h3
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img{ display: block;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+.conteiner {
+    margin: 0 auto;
+    width:  1158px;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 120px 0;
+
+}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba (46,47,66,0.08),0px 2px 1px rgba (46,47,66,0.08),0px 2px 1px rgba (46,47,66,0.08);
+}
+
+.page-header .conteiner{
+    display: flex;
+    align-items: center;
+}
+.pege-nav{
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    font-family:"raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+span{
+    color: #2e2f42;
+    margin-right: 76px;
+
+}
+.links-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+padding: 24px 0;
+display: block;
+position: relative;
+
+}
+.links-nav:hover,
+.links-nav:active,
+.links-nav:focus {
+    color: #404bbf;
+}
+  
+.address {
+    color: #2e2f42;
+text-decoration: none;
+margin-left: auto;
+font-style: normal;
+
+
+
+
+
+}
+
+.links {
+    display: block;
+}
+.current{
+    position: relative;
+transition: color 250ms cubic-bezier(0.4,0,0.2,1);
+color: #404bbf;
+
+
+
+
+
+}
+.current::after{
+content: "";
+width: 100%;
+position: absolute;
+left: 0;
+bottom:-1px;
+height: 4px;
+background-color: #404bbf;
+    border-radius: 2px;
+
+
+
+
+}
+.header-address {
+display: flex;
+gap: 40px;
+
+}
+
+.contacts {
+font-weight: 400;
+font-size:  16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+text-decoration: none;
+margin: 0;
+padding:20px 0 20px 0;
+transition: color 250ms cubic-bezier(0.4,0,0.2,1);
+
+}
+
+.contacts:hover,
+.contacts:focus{
+    color: #404bbf;
+}
+
+
+
+
+
+
+
 nav{
 
 
